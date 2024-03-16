@@ -1,0 +1,30 @@
+header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.form-control {
+  width: 264px;
+}
+
+section img {
+  min-height: 240px;
+  max-height: 250px;
+}
+section {
+  font-size: 20px;
+}
+
+section img {
+  transform: scale(0.8);
+}
+section img:hover {
+  transform: scale(1);
+}
+.logo-form {
+  width: 400px;
+  height: 400px;
+}
